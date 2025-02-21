@@ -2,5 +2,7 @@ node_modules
 
 # Local Netlify folder
 .netlify
-docs/.vuepress/dist
+.vitepress/dist
+.vitepress/cache
+
 
