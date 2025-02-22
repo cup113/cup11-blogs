@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: '前端教程', link: '/frontend-tutorial' },
     ],
 
     sidebar: [
@@ -49,7 +50,29 @@ export default defineConfig({
             ], collapsed: false,
           },
         ]
-      }
+      },
+      {
+        text: '中学数理化',
+        items: [
+          { text: "三角形三条中线围成的面积", link: '/middle-school/20220829-math-triangle-median-area' },
+          { text: "几何证明：扇形弧上任意一点到两边的垂线的垂足间的距离为一定值", link: '/middle-school/20230428-math-sector-perp-distance' },
+          { text: "差比数列待定系数法求和", link: '/middle-school/20240614-math-series-diff-ratio-sum' },
+          { text: "数列的S0与分段的关系", link: '/middle-school/20240614-math-series-sum-0-piecewise' },
+          { text: "化学平衡常数的推导：为什么有“浓度的系数次方”", link: '/middle-school/20240616-chemistry-k-constant-deduction' },
+          { text: "检验平面法向量", link: '/middle-school/20241130-math-check-normal-vector' },
+          { text: "解析几何中直线的对称点快速算法", link: '/middle-school/20241201-math-line-symmetry-point' },
+          { text: "导数与单调性的严格关系", link: '/middle-school/20250212-math-derivative-monotone' }
+        ],
+        collapsed: true,
+      },
+      {
+        text: '项目',
+        items: [
+          { text: "full-clock 一个开源可配置的全屏网页时钟", link: '/projects/full-clock' },
+          { text: "【网页小游戏】增强版掐秒表，解压玩具", link: '/projects/stopwatch-game' },
+        ],
+        collapsed: true,
+      },
     ],
 
     socialLinks: [
