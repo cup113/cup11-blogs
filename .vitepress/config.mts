@@ -49,6 +49,11 @@ export default defineConfig({
               { text: 'B12. 网络与社区', link: '/frontend-tutorial/B1/B12' },
             ], collapsed: false,
           },
+          {
+            text: '特辑', items: [
+              { text: 'Special 01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' }
+            ], collapsed: true,
+          }
         ]
       },
       {
