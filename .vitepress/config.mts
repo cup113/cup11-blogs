@@ -13,7 +13,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Frontend Tutorial',
+        text: '前端教程',
         link: '/frontend-tutorial',
         items: [
           {
@@ -22,8 +22,7 @@ export default defineConfig({
               { text: 'A12. 元素的基础语法 格式元素', link: '/frontend-tutorial/A1/A12' },
               { text: 'A13. 元素的属性 超链接与图片元素', link: '/frontend-tutorial/A1/A13' },
               { text: 'A14. 元素的嵌套 调试', link: '/frontend-tutorial/A1/A14' },
-              { text: 'A15. HTML结构', link: '/frontend-tutorial/A1/A15' },
-              { text: 'A16. HTML基础语法', link: '/frontend-tutorial/A1/A16' },
+              { text: 'A15. HTML结构 基础语法', link: '/frontend-tutorial/A1/A15' },
             ], collapsed: false,
           },
           {
@@ -64,6 +63,7 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    outline: [2, 3],
   },
   head: [
     ['link', { rel: 'icon', href: '/cube.png' }]

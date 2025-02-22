@@ -10,7 +10,7 @@ hero:
     alt: Logo
   actions:
     - theme: brand
-      text: Frontend tutorial
+      text: 前端教程
       link: /frontend-tutorial
 ---
 
