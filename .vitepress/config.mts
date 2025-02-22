@@ -53,7 +53,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cup113' }
+      { icon: 'github', link: 'https://github.com/cup113' },
+      { icon: 'bilibili', link: 'https://space.bilibili.com/1721126055' },
     ],
 
     footer: {
@@ -73,4 +74,4 @@ export default defineConfig({
     lineNumbers: true,
     math: true,
   },
-})
+});
