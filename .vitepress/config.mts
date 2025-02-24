@@ -66,7 +66,8 @@ export default defineConfig({
           { text: "化学平衡常数的推导：为什么有“浓度的系数次方”", link: '/middle-school/20240616-chemistry-k-constant-deduction' },
           { text: "检验平面法向量", link: '/middle-school/20241130-math-check-normal-vector' },
           { text: "解析几何中直线的对称点快速算法", link: '/middle-school/20241201-math-line-symmetry-point' },
-          { text: "导数与单调性的严格关系", link: '/middle-school/20250212-math-derivative-monotone' }
+          { text: "导数与单调性的严格关系", link: '/middle-school/20250212-math-derivative-monotone' },
+          { text: "ALG 不等式及二元平均值不等式的简洁证明", link: '/middle-school/20250225-math-alg-inequality-proof' }
         ],
         collapsed: true,
       },
