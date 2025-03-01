@@ -12,5 +12,8 @@ hero:
     - theme: brand
       text: 前端教程
       link: /frontend-tutorial
+    - theme: alt
+      text: 中学数理化
+      link: /middle-school/20220829-math-triangle-median-area
 ---
 

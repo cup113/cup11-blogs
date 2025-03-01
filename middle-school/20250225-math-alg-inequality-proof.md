@@ -1,127 +1,152 @@
-# ALG 不等式及二元平均值不等式的简洁证明
+# ALG不等式及二元均值不等式的对称证明
 
-> 高中数学·不等式·均值不等式
->
-> 高中数学·导数·ALG不等式
+> 高中数学·不等式·均值不等式 | 高中数学·导数·ALG 不等式
 
-**TL;DR** 换元为 $a=mt$ 和 $b=\frac{m}{t}$ 可以简化计算。
+## 一、 预备知识
 
-## 回顾：平均值不等式
+### 1.1 二元均值不等式
 
-我们已经知道平均值不等式（二元形式）：
+对任意$a,b>0$且$a \neq b$，有严格不等式链：
+$$
+\begin{align}
+\sqrt{\frac{a^2+b^2}{2}} > \frac{a+b}{2} > \sqrt{ab} > \frac{2}{\frac{1}{a}+\frac{1}{b}}
+\end{align}
+$$
+对应四类均值：
+- $Q$（平方平均）
+- $A$（算术平均）
+- $G$（几何平均）
+- $H$（调和平均）
+
+### 1.2 对数平均（ALG 不等式）
+
+对数平均的定义：
 
 $$
-\sqrt{\frac{a^2+b^2}{2}}>\frac{a+b}{2}>\sqrt{ab}>\frac{2}{\frac{1}{a}+\frac{1}{b}}
+L(a,b) = \frac{a - b}{\ln a - \ln b} \quad (a \neq b)
 $$
 
-其中：
-
-- 平方平均数 $Q=\frac{a^2+b^2}{2}$，
-- 算术平均数 $A=\frac{a+b}{2}$，
-- 几何平均数 $G=\sqrt{ab}$，
-- 调和平均数 $H=\frac{2}{\frac{1}{a}+\frac{1}{b}}$。
-
-## ALG 不等式
-
-而进入导数章节后，我们还会接触一个压轴常见的不等式：ALG不等式。其中：
+需证不等式链：
 
 $$
-L=\frac{a-b}{\ln a-\ln b}\ \left(a\ne b, a>0, b>0\right)
+A > L > G
 $$
 
-该值也符合通常平均值的特点，介于大小两数之间。
+## 二、对称换元策略
 
-我们有一个不等式：
+### 2.1 换元设计
 
-$$
-A > L > G\\
-\frac{a+b}{2} > \frac{a-b}{\ln a-\ln b} > \sqrt{ab}\ \left(a>0, b>0, a\ne b\right)
-$$
+常规的证明方法往往令 $a=tb$ 来进行换元，但这种换元方法使得 $a, b$ 出现了一次项 ($t$) 和常数项的**不对称性**，证明可能更加繁琐。
 
-常规的证明很容易找到，但是计算较为繁琐（设$a=tb$）。这种繁琐主要来源于$a$与$b$的不对称，$a$ 中含有 $t$ 因子，而 $b$ 则会被约去。
-
-## 证明：巧妙换元
-
-我们观察到，证明的困难之处尤其在于$\sqrt{ab}$。所以我们将进行对称的换元：
+为消除 $a,b$ 的不对称性，考虑构造**一个乘 $t$，一个除以 $t$**。引入参数：
 
 $$
-m=\sqrt{ab},\ t=\sqrt{\frac{a}{b}}
+\begin{cases}
+m = \sqrt{ab} \\[2mm]
+t = \sqrt{\dfrac{a}{b}} \quad (t > 1)
+\end{cases}
 $$
 
-这样就有：
+则原变量可对称表达为：
 
 $$
-a=mt,\ b=\frac{m}{t}
+a = mt, \quad b = \dfrac{m}{t}
 $$
 
-更加对称。
+### 2.2 特征分析
 
-由于 $Q,A,L,G,T$ 中的 $a, b$ 均具有轮换对称性，我们**只需证明 $a>b$ 即 $\fbox{t>1}$ 的情况**，此时$\ln t>0$。
+- 由于所有均值具有**齐次性**（即缩放不变性），故 $Q,A,L,G,H$ 对参数 $m$ 呈线性关系。
+- 由于所有均值具有**轮换对称性**，故**只需判断 $\boxed{t>1}$ 时的情况即可**。
 
-### 证明 A>L
+## 三、不等式证明
+
+### 3.1 算术平均 > 对数平均（$A > L$）
 
 $$
-A=\frac{t+\frac{1}{t}}{2}m,\ L=\frac{mt-\frac{m}{t}}{\ln {mt}-\ln {\frac{t}{m}}}=\frac{t-\frac{1}{t}}{2\ln t}m
+\begin{align}
+A &= \frac{mt + \frac{m}{t}}{2} &= \frac{t + \frac{1}{t}}{2} \cdot m\\
+L &= \frac{mt - \frac{m}{t}}{\ln(mt) - \ln\left(\frac{m}{t}\right)} &= \frac{t - \frac{1}{t}}{2\ln t} \cdot m
+\end{align}
+$$
+
+等价于：
+
+$$
+\begin{align}
+\frac{t + \frac{1}{t}}{2} &> \frac{t - \frac{1}{t}}{2\ln t}\\
+\ln t &> \frac{t^2 - 1}{t^2 + 1}
+\end{align}
+$$
+
+**步骤三**：导数验证
+
+令$f(t) = \ln t - \dfrac{t^2 - 1}{t^2 + 1}$，求导：
+
+$$
+\begin{align}
+f'(t) = \frac{1}{t} - \frac{4t}{(t^2 + 1)^2} = \frac{(t^2 - 1)^2}{t(t^2 + 1)^2} > 0
+\end{align}
+$$
+
+结合$f(1)=0$，得$f(t) > 0$恒成立。
+
+---
+
+### 3.2 对数平均 > 几何平均（$L > G$）
+
+只需证：
+
+$$
+\begin{align}
+L = \frac{t - \frac{1}{t}}{2\ln t} \cdot m &> m = G\\
+t - \frac{1}{t} &> 2\ln t
+\end{align}
+$$
+
+约去$m$得：
+
+$$
+$$
+
+**步骤二**：构造函数分析
+
+令$g(t) = t - \dfrac{1}{t} - 2\ln t$，求导：
+$$
+\begin{align}
+g'(t) = 1 + \frac{1}{t^2} - \frac{2}{t} = \left(1 - \frac{1}{t}\right)^2 > 0
+\end{align}
+$$
+
+结合$g(1)=0$，得$g(t) > 0$恒成立。
+
+### 3.3 几何平均 > 调和平均（$G > H$）
+
+即证：
+
+$$
+\begin{align}
+\sqrt{ab} = m > \frac{2}{\frac{1}{mt} + \frac{t}{m}} = \frac{2m}{t + \frac{1}{t}}
+\end{align}
 $$
 
 $$
 \begin{align}
-A&>L\\
-\iff \frac{t+\frac{1}{t}}{2}m&>\frac{t-\frac{1}{t}}{2\ln t}m\\
-\iff t+\frac{1}{t}&>\frac{t-\frac{1}{t}}{\ln t}\\
-\iff \ln t&>\frac{t^2-1}{t^2+1}\\
+t + \frac{1}{t} > 2
 \end{align}
 $$
 
-令
+此为基本不等式，当$t \neq 1$时严格成立。
 
-$$f(t)=\ln t - \frac{t^2-1}{t^2+1}$$
+## 四、方法总结
 
-则
+| 关键技巧   | 应用示例                           | 优势分析                 |
+| ---------- | ---------------------------------- | ------------------------ |
+| 对称参数化 | $a=mt,\ b=\frac{m}{t}$             | 消除变量不对称性         |
+| 齐次性约简 | 约去公共因子$m$                    | 降维简化问题             |
+| 构造函数法 | $f(t)=\ln t - \frac{t^2-1}{t^2+1}$ | 将不等式转化为函数单调性 |
 
-$$
-f'(t)=\frac{1}{t}-\frac{4t}{(t^2+1)^2}=\frac{t^4+2t^2+1-4t^2}{t(t^2+1)^2}=\frac{(t^2-1)^2}{t(t^2+1)^2}>0
-$$
+这体现了：
 
-且 $f(1)=0$ ，故 $f(x)$ 恒正，等式证毕。
-
-### 证明 L>G
-
-$$
-\begin{align}
-L&>G\\
-\iff \frac{t-\frac{1}{t}}{2\ln t}m&>m\\
-\iff t-\frac{1}{t}&>2\ln t\\
-\end{align}
-$$
-
-令
-
-$$f(t)=t-\frac{1}{t}-2\ln t$$
-
-则
-
-$$f'(t)=1+\frac{1}{t^2}-\frac{2}{t}=\left(\frac{1}{t}-1\right)^2>0
-$$
-
-且 $f(1)=0$ ，故 $f(x)$ 恒正，等式证毕。
-
-可以看到，这种换元方法在证明 L>G 时尤其简洁。
-
-### 拓展证明：G>H
-
-$$
-\begin{align}
-G&>H\\
-\iff \sqrt{ab}&>\frac{2}{\frac{1}{a}+\frac{1}{b}}\\
-\iff m&>\frac{2}{\frac{1}{mt}+\frac{t}{m}}\\
-\iff 1&>\frac{2}{\frac{1}{t}+t}\\
-\iff t+\frac{1}{t}&>2
-\end{align}
-$$
-
-即为基本不等式（由于 $t>1$，不取等）。
-
-## 小结
-
-换元是证明 ALG 不等式的关键。有时，考虑更加对称的结构可能会让问题更加简单。
+1. 对称换元法在不等式证明中的普适性
+2. 导数工具在验证函数单调性中的核心作用
+3. 齐次性特征对简化问题的指导意义
