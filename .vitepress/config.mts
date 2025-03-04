@@ -50,6 +50,19 @@ export default defineConfig({
             ], collapsed: false,
           },
           {
+            text: 'B2. HTML 进阶', link: '/frontend-tutorial/B2', items: [
+              { text: 'B21. 列表与表格', link: '/frontend-tutorial/B2/B21' },
+              { text: 'B22. 多媒体与嵌入', link: '/frontend-tutorial/B2/B22' },
+            ]
+          },
+          {
+            text: 'B3. CSS 进阶', link: '/frontend-tutorial/B3', items: [
+              { text: 'B31. CSS 进阶属性：背景 阴影 过渡', link: '/frontend-tutorial/B3/B31' },
+              { text: 'B32. 层叠优先级 伪类 伪元素', link: '/frontend-tutorial/B3/B32' },
+              { text: 'B33. 布局流 定位', link: '/frontend-tutorial/B3/B33' },
+            ]
+          },
+          {
             text: '特辑', items: [
               { text: 'Special 01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' }
             ], collapsed: true,
@@ -103,5 +116,10 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     math: true,
+  },
+  vite: {
+    server: {
+      port: 3000,
+    }
   },
 });
