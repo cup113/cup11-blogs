@@ -47,20 +47,30 @@ export default defineConfig({
             text: 'B1. Web通识及工具', link: '/frontend-tutorial/B1', items: [
               { text: 'B11. 常见标记语言', link: '/frontend-tutorial/B1/B11' },
               { text: 'B12. 网络与社区', link: '/frontend-tutorial/B1/B12' },
-            ], collapsed: false,
+            ], collapsed: true,
           },
           {
             text: 'B2. HTML 进阶', link: '/frontend-tutorial/B2', items: [
               { text: 'B21. 列表与表格', link: '/frontend-tutorial/B2/B21' },
               { text: 'B22. 多媒体与嵌入', link: '/frontend-tutorial/B2/B22' },
-            ]
+            ], collapsed: true,
           },
           {
             text: 'B3. CSS 进阶', link: '/frontend-tutorial/B3', items: [
               { text: 'B31. CSS 进阶属性：背景 阴影 过渡', link: '/frontend-tutorial/B3/B31' },
               { text: 'B32. 层叠优先级 伪类 伪元素', link: '/frontend-tutorial/B3/B32' },
               { text: 'B33. 布局流 定位', link: '/frontend-tutorial/B3/B33' },
-            ]
+            ], collapsed: true,
+          },
+          {
+            text: 'B4. JavaScript 进阶', link: '/frontend-tutorial/B4', items: [
+              { text: 'B41. 浏览器 BOM 数学模块', link: '/frontend-tutorial/B4/B41' },
+              { text: 'B42. 高阶函数 浏览器 API', link: '/frontend-tutorial/B4/B42' },
+              { text: 'B43. JavaScript 数组', link: '/frontend-tutorial/B4/B43' },
+              { text: 'B44. 简单对象 JSON', link: '/frontend-tutorial/B4/B44' },
+              { text: 'B45. 日期时间 存储模块', link: '/frontend-tutorial/B4/B45' },
+              { text: 'B46. 创建与删除 DOM', link: '/frontend-tutorial/B4/B46'  }
+            ], collapsed: true,
           },
           {
             text: '特辑', items: [
