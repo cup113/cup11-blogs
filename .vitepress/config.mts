@@ -63,7 +63,7 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
-            text: 'B4. JavaScript 进阶', link: '/frontend-tutorial/B4', items: [
+            text: 'B4. JavaScript 初级', link: '/frontend-tutorial/B4', items: [
               { text: 'B41. 浏览器 BOM 数学模块', link: '/frontend-tutorial/B4/B41' },
               { text: 'B42. 高阶函数 浏览器 API', link: '/frontend-tutorial/B4/B42' },
               { text: 'B43. JavaScript 数组', link: '/frontend-tutorial/B4/B43' },
@@ -73,8 +73,20 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'C1. JavaScript 进阶', link: '/frontend-tutorial/C1', items: [
+              { text: 'C11. 面向对象初步', link: '/frontend-tutorial/C1/C11' },
+              { text: 'C12. this 上下文', link: '/frontend-tutorial/C1/C12' },
+              { text: 'C13. 类的封装和继承', link: '/frontend-tutorial/C1/C13' },
+              { text: 'C14. 正则表达式初步', link: '/frontend-tutorial/C1/C14' },
+              { text: 'C15. 网络交互 异步回调', link: '/frontend-tutorial/C1/C15' },
+              { text: 'C16. 异步编程 async/await', link: '/frontend-tutorial/C1/C16' },
+              { text: 'C17. ES 新特性及常见 JavaScript 库', link: '/frontend-tutorial/C1/C17' },
+            ], collapsed: true,
+          },
+          {
             text: '特辑', items: [
-              { text: 'Special 01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' }
+              { text: 'Special 01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
+              { text: 'Special 02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
             ], collapsed: true,
           }
         ]
