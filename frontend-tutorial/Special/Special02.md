@@ -1,3 +1,2 @@
-# Special 02: CSS 项目 I 爱心跳动
-
+# Special 02: CSS Project (I) 爱心跳动
 

@@ -69,7 +69,7 @@ export default defineConfig({
               { text: 'B43. JavaScript 数组', link: '/frontend-tutorial/B4/B43' },
               { text: 'B44. 简单对象 JSON', link: '/frontend-tutorial/B4/B44' },
               { text: 'B45. 日期时间 存储模块', link: '/frontend-tutorial/B4/B45' },
-              { text: 'B46. 创建与删除 DOM', link: '/frontend-tutorial/B4/B46'  }
+              { text: 'B46. 创建与删除 DOM', link: '/frontend-tutorial/B4/B46' }
             ], collapsed: true,
           },
           {
@@ -85,8 +85,11 @@ export default defineConfig({
           },
           {
             text: '特辑', items: [
-              { text: 'Special 01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
-              { text: 'Special 02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
+              { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
+              { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
+              { text: '03: CSS 项目 II 个人简历', link: '/frontend-tutorial/Special/Special03' },
+              { text: '04: JavaScript 项目 I 全屏时钟', link: '/frontend-tutorial/Special/Special04' },
+              { text: '05: JavaScript 项目 II 掐秒表', link: '/frontend-tutorial/Special/Special05' },
             ], collapsed: true,
           }
         ]
