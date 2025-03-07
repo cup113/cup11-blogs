@@ -14,7 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '前端教程',
+        text: '💻 前端教程',
         link: '/frontend-tutorial',
         items: [
           {
@@ -24,7 +24,7 @@ export default defineConfig({
               { text: 'A13. 元素的属性 超链接与图片元素', link: '/frontend-tutorial/A1/A13' },
               { text: 'A14. 元素的嵌套 调试', link: '/frontend-tutorial/A1/A14' },
               { text: 'A15. HTML结构 基础语法', link: '/frontend-tutorial/A1/A15' },
-            ], collapsed: false,
+            ], collapsed: true,
           },
           {
             text: 'A2. CSS入门', link: '/frontend-tutorial/A2', items: [
@@ -33,7 +33,7 @@ export default defineConfig({
               { text: 'A23. 盒模型', link: '/frontend-tutorial/A2/A23' },
               { text: 'A24. CSS选择器', link: '/frontend-tutorial/A2/A24' },
               { text: 'A25. CSS常用属性 兼容性', link: '/frontend-tutorial/A2/A25' },
-            ], collapsed: false,
+            ], collapsed: true,
           },
           {
             text: 'A3. JavaScript入门', link: '/frontend-tutorial/A3', items: [
@@ -41,7 +41,7 @@ export default defineConfig({
               { text: 'A32. 流程控制 函数', link: '/frontend-tutorial/A3/A32' },
               { text: 'A33. 浏览器操作 DOM', link: '/frontend-tutorial/A3/A33' },
               { text: 'A34. 表单', link: '/frontend-tutorial/A3/A34' },
-            ], collapsed: false,
+            ], collapsed: true,
           },
           {
             text: 'B1. Web通识及工具', link: '/frontend-tutorial/B1', items: [
@@ -84,18 +84,28 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
-            text: '特辑', items: [
+            text: 'C2. 环境部署与网页搭建', link: '/frontend-tutorial/C2', items: [
+              { text: 'C21. Windows 终端命令行', link: '/frontend-tutorial/C2/C21' },
+              { text: 'C22. Visual Studio Code 的安装与配置', link: '/frontend-tutorial/C2/C22' },
+              { text: 'C23. NPM 包管理器', link: '/frontend-tutorial/C2/C23' },
+              { text: 'C24. 在 Netlify 上部署项目', link: '/frontend-tutorial/C2/C24' },
+              { text: 'C25. 初识 Electron', link: '/frontend-tutorial/C2/C25' },
+            ], collapsed: true,
+          },
+          {
+            text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
               { text: '03: CSS 项目 II 个人简历', link: '/frontend-tutorial/Special/Special03' },
               { text: '04: JavaScript 项目 I 全屏时钟', link: '/frontend-tutorial/Special/Special04' },
               { text: '05: JavaScript 项目 II 掐秒表', link: '/frontend-tutorial/Special/Special05' },
+              { text: '06: JavaScript 项目 III 轰炸座位表', link: '/frontend-tutorial/Special/Special06' },
             ], collapsed: true,
           }
         ]
       },
       {
-        text: '中学数理化',
+        text: '🧮 中学数理化',
         items: [
           { text: "三角形三条中线围成的面积", link: '/middle-school/20220829-math-triangle-median-area' },
           { text: "几何证明：扇形弧上任意一点到两边的垂线的垂足间的距离为一定值", link: '/middle-school/20230428-math-sector-perp-distance' },
@@ -112,7 +122,7 @@ export default defineConfig({
         collapsed: true,
       },
       {
-        text: '项目',
+        text: '🎲 项目',
         items: [
           { text: "full-clock 一个开源可配置的全屏网页时钟", link: '/projects/full-clock' },
           { text: "【网页小游戏】增强版掐秒表，解压玩具", link: '/projects/stopwatch-game' },
@@ -134,6 +144,10 @@ export default defineConfig({
       provider: 'local',
     },
     outline: [2, 3],
+    editLink: {
+      pattern: 'https://github.com/cup113/cup11-blogs/edit/main/:path',
+      text: '在 Github 上编辑此页'
+    },
   },
   head: [
     ['link', { rel: 'icon', href: '/cube.png' }]
