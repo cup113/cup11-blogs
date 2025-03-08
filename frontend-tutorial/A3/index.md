@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./A31
+  link: ./A31.html
   text: A31. 语句 数据类型
 ---
 

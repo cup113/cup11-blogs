@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./C11
+  link: ./C11.html
   text: C11. 面向对象初步
 ---
 

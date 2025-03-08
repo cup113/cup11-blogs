@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./A21
+  link: ./A21.html
   text: A21. CSS基础语法 长度属性值
 ---
 

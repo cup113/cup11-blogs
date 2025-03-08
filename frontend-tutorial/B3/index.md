@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./B31
+  link: ./B31.html
   text: B31. CSS 进阶属性：背景 阴影 过渡
 ---
 

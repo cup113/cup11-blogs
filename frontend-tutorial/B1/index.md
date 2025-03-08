@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./B11
+  link: ./B11.html
   text: B11. 常见标记语言
 ---
 

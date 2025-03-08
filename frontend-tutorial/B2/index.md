@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./B21
+  link: ./B21.html
   text: B21. 列表 表格
 ---
 

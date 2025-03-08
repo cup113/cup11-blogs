@@ -3,7 +3,7 @@ prev:
   link: ../
   text: 前端教程
 next:
-  link: ./A11
+  link: ./A11.html
   text: A11. 初识网页开发
 ---
 

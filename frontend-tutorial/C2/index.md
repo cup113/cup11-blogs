@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./C21
+  link: ./C21.html
   text: C21. Windows 终端命令行
 ---
 

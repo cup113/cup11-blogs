@@ -1,6 +1,6 @@
 ---
 next:
-  link: ./B41
+  link: ./B41.html
   text: B41. 浏览器 BOM 数学模块
 ---
 
