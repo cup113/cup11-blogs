@@ -18,25 +18,25 @@ export default defineConfig({
         link: '/frontend-tutorial',
         items: [
           {
-            text: 'A1. HTML入门', link: '/frontend-tutorial/A1', items: [
+            text: 'A1. HTML 入门', link: '/frontend-tutorial/A1', items: [
               { text: 'A11. 初识网页开发', link: '/frontend-tutorial/A1/A11' },
               { text: 'A12. 元素的基础语法 格式元素', link: '/frontend-tutorial/A1/A12' },
               { text: 'A13. 元素的属性 超链接与图片元素', link: '/frontend-tutorial/A1/A13' },
               { text: 'A14. 元素的嵌套 调试', link: '/frontend-tutorial/A1/A14' },
-              { text: 'A15. HTML结构 基础语法', link: '/frontend-tutorial/A1/A15' },
+              { text: 'A15. HTML 结构 基础语法', link: '/frontend-tutorial/A1/A15' },
             ], collapsed: true,
           },
           {
-            text: 'A2. CSS入门', link: '/frontend-tutorial/A2', items: [
-              { text: 'A21. CSS基础语法 长度属性值', link: '/frontend-tutorial/A2/A21' },
-              { text: 'A22. 颜色 CSS调试', link: '/frontend-tutorial/A2/A22' },
+            text: 'A2. CSS 入门', link: '/frontend-tutorial/A2', items: [
+              { text: 'A21. CSS 基础语法 长度属性值', link: '/frontend-tutorial/A2/A21' },
+              { text: 'A22. 颜色 CSS 调试', link: '/frontend-tutorial/A2/A22' },
               { text: 'A23. 盒模型', link: '/frontend-tutorial/A2/A23' },
-              { text: 'A24. CSS选择器', link: '/frontend-tutorial/A2/A24' },
-              { text: 'A25. CSS常用属性 兼容性', link: '/frontend-tutorial/A2/A25' },
+              { text: 'A24. CSS 选择器', link: '/frontend-tutorial/A2/A24' },
+              { text: 'A25. CSS 常用属性 兼容性', link: '/frontend-tutorial/A2/A25' },
             ], collapsed: true,
           },
           {
-            text: 'A3. JavaScript入门', link: '/frontend-tutorial/A3', items: [
+            text: 'A3. JavaScript 入门', link: '/frontend-tutorial/A3', items: [
               { text: 'A31. 语句 数据类型', link: '/frontend-tutorial/A3/A31' },
               { text: 'A32. 流程控制 函数', link: '/frontend-tutorial/A3/A32' },
               { text: 'A33. 浏览器操作 DOM', link: '/frontend-tutorial/A3/A33' },
@@ -90,6 +90,13 @@ export default defineConfig({
               { text: 'C23. NPM 包管理器', link: '/frontend-tutorial/C2/C23' },
               { text: 'C24. 在 Netlify 上部署项目', link: '/frontend-tutorial/C2/C24' },
               { text: 'C25. 初识 Electron', link: '/frontend-tutorial/C2/C25' },
+            ], collapsed: true,
+          },
+          {
+            text: 'C3. TypeScript 基础', link: '/frontend-tutorial/C3', items: [
+              { text: 'C31. TypeScript 环境配置', link: '/frontend-tutorial/C3/C31' },
+              { text: 'C32. 基础类型标注', link: '/frontend-tutorial/C3/C32' },
+              { text: 'C33. 类型运算', link: '/frontend-tutorial/C3/C33' },
             ], collapsed: true,
           },
           {
