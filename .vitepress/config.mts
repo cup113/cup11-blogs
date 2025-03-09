@@ -108,6 +108,14 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'C5. CSS 高级', link: '/frontend-tutorial/C5', items: [
+              { text: 'C51. Grid 网格布局', link: '/frontend-tutorial/C5/C51' },
+              { text: 'C52. 媒体查询 响应式开发', link: '/frontend-tutorial/C5/C52' },
+              { text: 'C53. CSS 动画', link: '/frontend-tutorial/C5/C53' },
+              { text: 'C54. 原子化 CSS', link: '/frontend-tutorial/C5/C54' },
+            ], collapsed: true,
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
@@ -115,6 +123,7 @@ export default defineConfig({
               { text: '04: JavaScript 项目 I 全屏时钟', link: '/frontend-tutorial/Special/Special04' },
               { text: '05: JavaScript 项目 II 掐秒表', link: '/frontend-tutorial/Special/Special05' },
               { text: '06: JavaScript 项目 III 轰炸座位表', link: '/frontend-tutorial/Special/Special06' },
+              { text: '07. 好文分享 — Troubleshooting (错误处理)', link: '/frontend-tutorial/Special/Special07' },
             ], collapsed: true,
           }
         ]
