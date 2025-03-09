@@ -100,6 +100,14 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'C4. Vue 基础', link: '/frontend-tutorial/C4', items: [
+              { text: 'C41. Vue 环境配置', link: '/frontend-tutorial/C4/C41' },
+              { text: 'C42. Vue 基础函数', link: '/frontend-tutorial/C4/C42' },
+              { text: 'C43. MVVM 设计与实现', link: '/frontend-tutorial/C4/C43' },
+              { text: 'C44. 条件渲染 列表渲染', link: '/frontend-tutorial/C4/C44' },
+            ], collapsed: true,
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
