@@ -116,6 +116,16 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'D1. 算法基础', link: '/frontend-tutorial/D1', items: [
+              { text: 'D11. 枚举、模拟与算法复杂度', link: '/frontend-tutorial/D1/D11' },
+              { text: 'D12. 递归、分治与二分查找', link: '/frontend-tutorial/D1/D12' },
+              { text: 'D13. 线性数据结构', link: '/frontend-tutorial/D1/D13' },
+              { text: 'D14. 集合与映射表', link: '/frontend-tutorial/D1/D14' },
+              { text: 'D15. 排序算法', link: '/frontend-tutorial/D1/D15' },
+              { text: 'D16. 防抖、节流与缓存', link: '/frontend-tutorial/D1/D16' },
+            ], collapsed: true,
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
