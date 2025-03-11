@@ -126,6 +126,14 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'D2. Typescript 进阶', link: '/frontend-tutorial/D2', items: [
+              { text: 'D21. 高级类型操作', link: '/frontend-tutorial/D2/D21' },
+              { text: 'D22. 定义复杂类型', link: '/frontend-tutorial/D2/D22' },
+              { text: 'D23. TypeScript 的模块化', link: '/frontend-tutorial/D2/D23' },
+              { text: 'D24. 使用 JavaScript 进行运行时验证', link: '/frontend-tutorial/D2/D24' },
+            ], collapsed: true,
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
@@ -171,6 +179,7 @@ export default defineConfig({
     ],
 
     footer: {
+      message: 'Built by Vitepress | Apache 2.0 Licensed',
       copyright: 'Copyright © 2025 cup11',
     },
 
