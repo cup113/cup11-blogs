@@ -134,6 +134,14 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'D3. Vue 进阶', link: '/frontend-tutorial/D3', items: [
+              { text: 'D31. Vue 组件化 生命周期', link: '/frontend-tutorial/D3/D31' },
+              { text: 'D32. 响应式工具库 VueUse', link: '/frontend-tutorial/D3/D32' },
+              { text: 'D33. 路由 vue-router', link: '/frontend-tutorial/D3/D33' },
+              { text: 'D34. 状态管理 pinia', link: '/frontend-tutorial/D3/D34' },
+            ],
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
