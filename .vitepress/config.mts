@@ -139,7 +139,15 @@ export default defineConfig({
               { text: 'D32. 响应式工具库 VueUse', link: '/frontend-tutorial/D3/D32' },
               { text: 'D33. 路由 vue-router', link: '/frontend-tutorial/D3/D33' },
               { text: 'D34. 状态管理 pinia', link: '/frontend-tutorial/D3/D34' },
-            ],
+            ], collapsed: true,
+          },
+          {
+            text: 'D4. 前端原理', link: '/frontend-tutorial/D4', items: [
+              { text: 'D41. 计算机硬件', link: '/frontend-tutorial/D4/D41' },
+              { text: 'D42. 操作系统 进程 线程', link: '/frontend-tutorial/D4/D42' },
+              { text: 'D43. 事件循环', link: '/frontend-tutorial/D4/D43' },
+              { text: 'D44. 浏览器渲染原理', link: '/frontend-tutorial/D4/D44' },
+            ], collapsed: true,
           },
           {
             text: '✨ 特辑', items: [
