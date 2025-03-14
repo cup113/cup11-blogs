@@ -150,6 +150,25 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: 'E1. 服务器基础', link: '/frontend-tutorial/E1', items: [
+              { text: 'E11. Linux 操作系统', link: '/frontend-tutorial/E1/E11' },
+              { text: 'E12. 网络模型', link: '/frontend-tutorial/E1/E12' },
+              { text: 'E13. 数据库', link: '/frontend-tutorial/E1/E13'},
+              { text: 'E14. 密码学基础', link: '/frontend-tutorial/E1/E14' },
+              { text: 'E15. 服务设计原则', link: '/frontend-tutorial/E1/E15' },
+              { text: 'E16. 服务器安全', link: '/frontend-tutorial/E1/E16' },
+            ], collapsed: true,
+          },
+          {
+            text: 'E2. Express.js 基础', link: '/frontend-tutorial/E2', items: [
+              { text: 'E21. Node.js 基础', link: '/frontend-tutorial/E2/E21' },
+              { text: 'E22. Express.js 端口监听', link: '/frontend-tutorial/E2/E22' },
+              { text: 'E23. WebSocket 双向即时通信', link: '/frontend-tutorial/E2/E23' },
+              { text: 'E24. 简单联网互动游戏示例', link: '/frontend-tutorial/E2/E24' },
+              { text: '结语：站在全栈的起点，向未来进发', link: '/frontend-tutorial/E2/epilog' },
+            ], collapsed: true,
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
               { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
