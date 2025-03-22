@@ -6,6 +6,10 @@
 在本文及此后的项目中，你不必严格遵照本文使用的代码，并且**鼓励进行替换**，加入自己的想法，创造出个性化的项目。
 :::
 
+::: warning
+强烈建议将下列代码自己手敲一遍（除 SVG 图片等），以加深印象，更好地锻炼自己的能力。
+:::
+
 ## 效果图
 
 ![效果图](./images/02-preview.png)
@@ -25,8 +29,9 @@
 
 这些知识点是可以在做项目时再同步学习的，不需要太过担心。
 
-- [B33. 布局流 定位](../A3/A33.md) / `flex` 布局
-- [C53. CSS 动画](../C5/C53.md) / CSS 动画基础
+- [B31.4. 元素变形](../B3/B31#14-transform)
+- [B33.3. flex 布局](../B3/B33#33-flex)
+- [C53.1. CSS 动画基础](../C5/C53.md#31-animation-basics)
 
 ## 制作步骤
 
@@ -138,6 +143,10 @@ body {
   justify-content: center; /* [!code ++] */
   height: 100vh; /* [!code ++] */
 }
+
+section.svg { /* [!code ++] */
+  margin: 2.5rem 0; /* [!code ++] */
+} /* [!code ++] */
 ```
 
 ### Step 4 / 创建动画
@@ -173,9 +182,32 @@ section.svg > svg {
 
 ### Step 5 / 美化文字样式
 
+> 作为一个有设计感的网站，自然要对文字进行一些调整。
+
+本教程使用 `Comic Sans MS` 手写风字体，你也可以使用别的字体。
+
+```css [style.css]
+section.wish {
+  font-family: 'Comic Sans MS', tahoma, sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  color: #ff66b3;
+}
+
+footer {
+  font-size: 0.75rem;
+}
+```
+
 ### Step 6 / 调试与优化
 
-## 拓展挑战
+教程中的内容已经完成。因为教程中第一次代码就给出了较为合理的比例配置。
+
+当然，你也可以试试修改数值，达到更好的效果。
+
+或者按照你自己的想法，自己设计界面。
+
+如果是作为个人从零开发的项目，期间每次的调试与优化都是不可避免的。
 
 ## 完整代码
 

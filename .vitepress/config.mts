@@ -57,9 +57,10 @@ export default defineConfig({
           },
           {
             text: 'B3. CSS 进阶', link: '/frontend-tutorial/B3', items: [
-              { text: 'B31. CSS 进阶属性：背景 阴影 过渡', link: '/frontend-tutorial/B3/B31' },
+              { text: 'B31. 背景 阴影 变形 过渡', link: '/frontend-tutorial/B3/B31' },
               { text: 'B32. 层叠优先级 伪类 伪元素', link: '/frontend-tutorial/B3/B32' },
               { text: 'B33. 布局流 定位', link: '/frontend-tutorial/B3/B33' },
+              { text: 'B34. CSS 变量', link: '/frontend-tutorial/B3/B34' },
             ], collapsed: true,
           },
           {
