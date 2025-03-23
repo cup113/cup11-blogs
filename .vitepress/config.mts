@@ -177,7 +177,7 @@ export default defineConfig({
               { text: '04: 掐秒表 (JS)', link: '/frontend-tutorial/Projects/P04' },
               { text: '05: 快乐母鸡 (JS)', link: '/frontend-tutorial/Projects/P05' },
               { text: '06: 轰炸座位表 (JS)', link: '/frontend-tutorial/Projects/P06' },
-            ]
+            ], collapsed: true,
           },
           {
             text: '✨ 特辑', items: [
@@ -226,6 +226,9 @@ export default defineConfig({
 
     search: {
       provider: 'local',
+      options: {
+        detailedView: true,
+      }
     },
     outline: [2, 3],
     editLink: {
