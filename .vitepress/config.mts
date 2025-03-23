@@ -170,14 +170,19 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
+            text: '🗞️ 项目', items: [
+              { text: '01: 爱心跳动 (CSS)', link: '/frontend-tutorial/Projects/P01' },
+              { text: '02: 个人简历 (CSS)', link: '/frontend-tutorial/Projects/P02' },
+              { text: '03: 全屏时钟 (JS)', link: '/frontend-tutorial/Projects/P03' },
+              { text: '04: 掐秒表 (JS)', link: '/frontend-tutorial/Projects/P04' },
+              { text: '05: 快乐母鸡 (JS)', link: '/frontend-tutorial/Projects/P05' },
+              { text: '06: 轰炸座位表 (JS)', link: '/frontend-tutorial/Projects/P06' },
+            ]
+          },
+          {
             text: '✨ 特辑', items: [
               { text: '01: 开学致辞 2025.2', link: '/frontend-tutorial/Special/Special01' },
-              { text: '02: CSS 项目 I 爱心跳动', link: '/frontend-tutorial/Special/Special02' },
-              { text: '03: CSS 项目 II 个人简历', link: '/frontend-tutorial/Special/Special03' },
-              { text: '04: JavaScript 项目 I 全屏时钟', link: '/frontend-tutorial/Special/Special04' },
-              { text: '05: JavaScript 项目 II 掐秒表', link: '/frontend-tutorial/Special/Special05' },
-              { text: '06: JavaScript 项目 III 轰炸座位表', link: '/frontend-tutorial/Special/Special06' },
-              { text: '07. 好文分享 — Troubleshooting (错误处理)', link: '/frontend-tutorial/Special/Special07' },
+              { text: '02. 好文分享 — Troubleshooting (错误处理)', link: '/frontend-tutorial/Special/Special02' },
             ], collapsed: true,
           }
         ]
