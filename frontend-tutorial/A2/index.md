@@ -26,7 +26,7 @@ next:
 - **善用开发者工具**：在开发过程中，你可以使用浏览器的开发者工具来实时调试样式。
 - **亲手敲代码**：通过练习，你可以学习到 CSS 的基本语法和应用。
 
-## Cheatsheet
+## 速查表 / Cheatsheet
 
 亦可参见：<https://htmlcheatsheet.com/css/>
 
