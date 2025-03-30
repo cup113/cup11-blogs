@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            width: 18%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .box-container {
+            position: relative;
+            height: 200px;
+            background-color: rgba(0, 128, 128, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .original-box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 2px dashed green;
+            background-color: rgba(0, 255, 128, 0.3);
+        }
+        .transformed-box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            background-color: rgba(0, 128, 255, 0.3);
+        }
+        .code-block {
+            padding: 10px;
+            background-color: #f9f9f9;
+            font-family: Consolas, Courier, monospace;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: translateX(30px);"></div>
+        </div>
+        <div class="code-block">
+            transform: translateX(30px);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: translateY(30px);"></div>
+        </div>
+        <div class="code-block">
+            transform: translateY(30px);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: scale(1.5);"></div>
+        </div>
+        <div class="code-block">
+            transform: scale(1.5);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: rotate(30deg);"></div>
+        </div>
+        <div class="code-block">
+            transform: rotate(30deg);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: skewX(20deg);"></div>
+        </div>
+        <div class="code-block">
+            transform: skewX(20deg);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: skewY(20deg);"></div>
+        </div>
+        <div class="code-block">
+            transform: skewY(20deg);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: scale(1.3, 0.7);"></div>
+        </div>
+        <div class="code-block">
+            transform: scale(1.3, 0.7);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: translate(30px, -30px);"></div>
+        </div>
+        <div class="code-block">
+            transform: translate(30px, -30px);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: translate(50px) rotate(30deg) scale(0.8);"></div>
+        </div>
+        <div class="code-block">
+            transform: translate(50px) rotate(30deg) scale(0.8);
+        </div>
+    </div>
+    <div class="card">
+        <div class="box-container">
+            <div class="original-box"></div>
+            <div class="transformed-box" style="transform: scale(0.8) rotate(30deg) translate(50px);"></div>
+        </div>
+        <div class="code-block">
+            transform: scale(0.8) rotate(30deg) translate(50px);
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
