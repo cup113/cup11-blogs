@@ -171,11 +171,11 @@ export default defineConfig({
           },
           {
             text: '🗞️ 项目', items: [
-              { text: '01: 爱心跳动 (CSS)', link: '/frontend-tutorial/Projects/P01' },
+              { text: '01: ❤️ 爱心跳动 (CSS)', link: '/frontend-tutorial/Projects/P01' },
               { text: '02: 个人简历 (CSS)', link: '/frontend-tutorial/Projects/P02' },
-              { text: '03: 全屏时钟 (JS)', link: '/frontend-tutorial/Projects/P03' },
-              { text: '04: 掐秒表 (JS)', link: '/frontend-tutorial/Projects/P04' },
-              { text: '05: 快乐母鸡 (JS)', link: '/frontend-tutorial/Projects/P05' },
+              { text: '03: ⏰ 全屏时钟 (JS)', link: '/frontend-tutorial/Projects/P03' },
+              { text: '04: ⏱️ 掐秒表 (JS)', link: '/frontend-tutorial/Projects/P04' },
+              { text: '05: 🥚 快乐母鸡 (JS)', link: '/frontend-tutorial/Projects/P05' },
               { text: '06: 轰炸座位表 (JS)', link: '/frontend-tutorial/Projects/P06' },
             ], collapsed: true,
           },
