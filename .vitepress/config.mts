@@ -200,7 +200,6 @@ export default defineConfig({
           { text: "📈 导数与单调性的严格关系", link: '/middle-school/20250212-math-derivative-monotone' },
           { text: "📚 ALG 不等式及二元平均值不等式的简洁证明", link: '/middle-school/20250225-math-alg-inequality-proof' },
           { text: "⚡ LC 振荡电路周期公式的推导", link: '/middle-school/20250225-physics-lc-cycle' },
-          { text: "📈 导数提高例题精析", link: '/middle-school/20250304-math-derivative-questions' },
           { text: "🧲 线圈进入磁场时安培力的加速度影响因素", link: '/middle-school/20250329-physics-coil-magnet-force' },
           { text: "🧪 深度理解 σ 键和不饱和度的计算", link: '/middle-school/20250330-chemistry-sigma-unsaturate' }
         ],
