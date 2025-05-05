@@ -38,8 +38,8 @@ export default defineConfig({
           {
             text: '⚡ A3. JavaScript 入门', link: '/frontend-tutorial/A3', items: [
               { text: 'A31. 语句 数据类型', link: '/frontend-tutorial/A3/A31' },
-              { text: 'A32. 流程控制 函数', link: '/frontend-tutorial/A3/A32' },
-              { text: 'A33. 浏览器操作 DOM', link: '/frontend-tutorial/A3/A33' },
+              { text: 'A32. 数组 流程控制', link: '/frontend-tutorial/A3/A32' },
+              { text: 'A33. 函数 事件 DOM', link: '/frontend-tutorial/A3/A33' },
               { text: 'A34. 表单', link: '/frontend-tutorial/A3/A34' },
             ], collapsed: true,
           },
@@ -65,12 +65,11 @@ export default defineConfig({
           },
           {
             text: '⚡ B4. JavaScript 初级', link: '/frontend-tutorial/B4', items: [
-              { text: 'B41. 浏览器 BOM 数学模块', link: '/frontend-tutorial/B4/B41' },
+              { text: 'B41. 浏览器 BOM 对象 数学模块', link: '/frontend-tutorial/B4/B41' },
               { text: 'B42. 高阶函数 浏览器 API', link: '/frontend-tutorial/B4/B42' },
-              { text: 'B43. JavaScript 数组', link: '/frontend-tutorial/B4/B43' },
+              { text: 'B43. 本地存储', link: '/frontend-tutorial/B4/B43' },
               { text: 'B44. 简单对象 JSON', link: '/frontend-tutorial/B4/B44' },
-              { text: 'B45. 日期时间 存储模块', link: '/frontend-tutorial/B4/B45' },
-              { text: 'B46. 创建与删除 DOM', link: '/frontend-tutorial/B4/B46' }
+              { text: 'B45. 日期对象 常用库', link: '/frontend-tutorial/B4/B45' },
             ], collapsed: true,
           },
           {
