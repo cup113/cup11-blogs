@@ -18,33 +18,33 @@ next:
 
 ### A. 前端入门
 
-- [A1. HTML 入门](./A1)
-- [A2. CSS 入门](./A2)
-- [A3. JavaScript 入门](./A3)
+- [A1. HTML 入门](./A1/index.md)
+- [A2. CSS 入门](./A2/index.md)
+- [A3. JavaScript 入门](./A3/index.md)
 
 ### B. 前端初级
 
-- [B1. Web 通识与工具](./B1)
-- [B2. HTML 进阶](./B2)
-- [B3. CSS 进阶](./B3)
-- [B4. JavaScript 初级](./B4)
+- [B1. Web 通识与工具](./B1/index.md)
+- [B2. HTML 进阶](./B2/index.md)
+- [B3. CSS 进阶](./B3/index.md)
+- [B4. JavaScript 初级](./B4/index.md)
 
 ### C. 前端进阶
 
-- [C1. JavaScript 进阶](./C1)
-- [C2. 环境搭建与网页部署](./C2)
-- [C3. TypeScript 基础](./C3)
-- [C4. Vue 基础](./C4)
-- [C5. CSS 高级](./C5)
+- [C1. JavaScript 进阶](./C1/index.md)
+- [C2. 环境搭建与网页部署](./C2/index.md)
+- [C3. TypeScript 基础](./C3/index.md)
+- [C4. Vue 基础](./C4/index.md)
+- [C5. CSS 高级](./C5/index.md)
 
 ### D. 前端高级
 
-- [D1. 算法基础](./D1)
-- [D2. TypeScript 进阶](./D2)
-- [D3. Vue 进阶](./D3)
-- [D4. 前端原理](./D4)
+- [D1. 算法基础](./D1/index.md)
+- [D2. TypeScript 进阶](./D2/index.md)
+- [D3. Vue 进阶](./D3/index.md)
+- [D4. 前端原理](./D4/index.md)
 
 ### E. 后端初步
 
-- [E1. 服务器基础](./E1)
-- [E2. Express.js 基础](./E2)
+- [E1. 服务器基础](./E1/index.md)
+- [E2. Express.js 基础](./E2/index.md)
