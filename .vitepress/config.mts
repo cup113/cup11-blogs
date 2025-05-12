@@ -84,7 +84,7 @@ export default defineConfig({
             ], collapsed: true,
           },
           {
-            text: '📦 C2. 环境部署与网页搭建', link: '/frontend-tutorial/C2', items: [
+            text: '📦 C2. 环境搭建与网页部署', link: '/frontend-tutorial/C2', items: [
               { text: 'C21. Windows 终端命令行', link: '/frontend-tutorial/C2/C21' },
               { text: 'C22. Visual Studio Code 的安装与配置', link: '/frontend-tutorial/C2/C22' },
               { text: 'C23. NPM 包管理器', link: '/frontend-tutorial/C2/C23' },
