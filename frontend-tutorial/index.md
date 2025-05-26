@@ -16,20 +16,20 @@ next:
 
 ## 课程目录
 
-### A. 前端入门
+### A. 前端入门——语言基础与练习
 
 - [A1. HTML 入门](./A1/index.md)
 - [A2. CSS 入门](./A2/index.md)
 - [A3. JavaScript 入门](./A3/index.md)
 
-### B. 前端初级
+### B. 前端初级——代码进阶与通识
 
 - [B1. Web 通识与工具](./B1/index.md)
 - [B2. HTML 进阶](./B2/index.md)
 - [B3. CSS 进阶](./B3/index.md)
 - [B4. JavaScript 初级](./B4/index.md)
 
-### C. 前端进阶
+### C. 前端进阶——高级语言与部署
 
 - [C1. JavaScript 进阶](./C1/index.md)
 - [C2. 环境搭建与网页部署](./C2/index.md)
@@ -37,14 +37,14 @@ next:
 - [C4. Vue 基础](./C4/index.md)
 - [C5. CSS 高级](./C5/index.md)
 
-### D. 前端高级
+### D. 前端高级——底层原理与工程
 
 - [D1. 算法基础](./D1/index.md)
 - [D2. TypeScript 进阶](./D2/index.md)
 - [D3. Vue 进阶](./D3/index.md)
 - [D4. 前端原理](./D4/index.md)
 
-### E. 后端初步
+### E. 后端初步——服务搭建与框架
 
 - [E1. 服务器基础](./E1/index.md)
 - [E2. Express.js 基础](./E2/index.md)
