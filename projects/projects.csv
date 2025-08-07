@@ -1,0 +1,12 @@
+name,repoName,link,platform,status,tags,description
+全屏时钟,full-clock,https://clock.cup11.top,Web 全平台,release,"效率,专注,考试","(新版) 全屏时钟，支持配置、调整秒钟显示、标题显示、全屏，自动调节大小，适合考试时使用。"
+口算练习,oral-calculation,https://oral-calculation.netlify.app,Web PC,release,"学习,数学","各种高度可定制化的题型，在线计时练习口算，结束后提供全面报告，还有错题整理等功能。"
+Exam Char Key,exam-char-key,https://eck.cup11.top,Web 全平台,release,"学习,语文,文言文","面向古代汉语学习的智能辅助平台，专为需要深入学习和查询文言文词语释义的学生设计。"
+Anki 制卡器,anki_maker,https://anki.cup11.top/,Web PC,release,"学习,工具,效率","快速制作 Anki 卡片，可配置卡片样式，可导入导出数据（支持 Word 文档、Anki 卡组、JSON 文件，允许跨域调用）。"
+登山抽奖器,progressive-draw,https://progressive-draw.cup11.top/,Web PC,release,"娱乐,抽奖","一个通过攀登台阶以决出最终获奖者的新型抽奖器 (v2)，更具刺激性。"
+多轮抽奖器,knock-out-draw,https://knock-out-draw.netlify.app,Web 全平台,release,"娱乐,抽奖","一个通过层层筛选以选出最终获奖者的新型抽奖器，更有刺激性。"
+纯 JS 小玩具,vanilla-gadgets,https://vanilla.cup11.top/,Web 全平台,release,"工具,娱乐","使用 Vanilla JS 写的小玩具，包括快乐母鸡、掐秒表等。"
+BMI 计算器,bmi-calculator,https://bmi-calculator-c.netlify.app,Web 全平台,release,"实用,健康,计算工具","计算 BMI，并根据国标（22 岁及以下使用国家体质健康标准）更准确地判断体重状况，获得更科学的衡量。"
+倒数日,date_countdown,https://github.com/cup113/date_countdown,CLI PC,release,实用,"计算日期倒计时的命令行软件，记录过去、当日和将来的每一天。"
+计票器,vote-counter,https://vote_counter.netlify.app,Web PC,release,"效率,工具,展示","支持大屏投票展示、统计、排名，以及动画呈现，在本地自动保存所有数据。"
+灵动课表,class_form,https://github.com/cup113/class_form,GUI PC,deprecated,"学习,实用,时间管理","（转向 ClassIsland）自动置顶调整展示课表的软件，高度可定制化，课表显示美观，传达信息充足。"

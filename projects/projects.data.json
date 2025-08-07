@@ -1,0 +1,194 @@
+[
+  {
+    "name": "全屏时钟",
+    "repoName": "full-clock",
+    "link": "https://clock.cup11.top",
+    "platform": "Web 全平台",
+    "status": "release",
+    "tags": [
+      "效率",
+      "专注",
+      "考试"
+    ],
+    "description": "(新版) 全屏时钟，支持配置、调整秒钟显示、标题显示、全屏，自动调节大小，适合考试时使用。",
+    "icon": "/projects/icon/full-clock.ico",
+    "preview": "/projects/preview/full-clock.png",
+    "linkText": "clock.cup11.top/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/full-clock?label=\"上次更新\""
+  },
+  {
+    "name": "口算练习",
+    "repoName": "oral-calculation",
+    "link": "https://oral-calculation.netlify.app",
+    "platform": "Web PC",
+    "status": "release",
+    "tags": [
+      "学习",
+      "数学"
+    ],
+    "description": "各种高度可定制化的题型，在线计时练习口算，结束后提供全面报告，还有错题整理等功能。",
+    "icon": "/projects/icon/oral-calculation.ico",
+    "preview": "/projects/preview/oral-calculation.png",
+    "linkText": "oral-calculation.netlify.app/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/oral-calculation?label=\"上次更新\""
+  },
+  {
+    "name": "Exam Char Key",
+    "repoName": "exam-char-key",
+    "link": "https://eck.cup11.top",
+    "platform": "Web 全平台",
+    "status": "release",
+    "tags": [
+      "学习",
+      "语文",
+      "文言文"
+    ],
+    "description": "面向古代汉语学习的智能辅助平台，专为需要深入学习和查询文言文词语释义的学生设计。",
+    "icon": "/projects/icon/exam-char-key.ico",
+    "preview": "/projects/preview/exam-char-key.png",
+    "linkText": "eck.cup11.top/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/exam-char-key?label=\"上次更新\""
+  },
+  {
+    "name": "Anki 制卡器",
+    "repoName": "anki_maker",
+    "link": "https://anki.cup11.top/",
+    "platform": "Web PC",
+    "status": "release",
+    "tags": [
+      "学习",
+      "工具",
+      "效率"
+    ],
+    "description": "快速制作 Anki 卡片，可配置卡片样式，可导入导出数据（支持 Word 文档、Anki 卡组、JSON 文件，允许跨域调用）。",
+    "icon": "/projects/icon/anki_maker.ico",
+    "preview": "/projects/preview/anki_maker.png",
+    "linkText": "anki.cup11.top/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/anki_maker?label=\"上次更新\""
+  },
+  {
+    "name": "登山抽奖器",
+    "repoName": "progressive-draw",
+    "link": "https://progressive-draw.cup11.top/",
+    "platform": "Web PC",
+    "status": "release",
+    "tags": [
+      "娱乐",
+      "抽奖"
+    ],
+    "description": "一个通过攀登台阶以决出最终获奖者的新型抽奖器 (v2)，更具刺激性。",
+    "icon": "/projects/icon/progressive-draw.ico",
+    "preview": "/projects/preview/progressive-draw.png",
+    "linkText": "progressive-draw.cup11.top/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/progressive-draw?label=\"上次更新\""
+  },
+  {
+    "name": "多轮抽奖器",
+    "repoName": "knock-out-draw",
+    "link": "https://knock-out-draw.netlify.app",
+    "platform": "Web 全平台",
+    "status": "release",
+    "tags": [
+      "娱乐",
+      "抽奖"
+    ],
+    "description": "一个通过层层筛选以选出最终获奖者的新型抽奖器，更有刺激性。",
+    "icon": "/projects/icon/knock-out-draw.ico",
+    "preview": "/projects/preview/knock-out-draw.png",
+    "linkText": "knock-out-draw.netlify.app/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/knock-out-draw?label=\"上次更新\""
+  },
+  {
+    "name": "纯 JS 小玩具",
+    "repoName": "vanilla-gadgets",
+    "link": "https://vanilla.cup11.top/",
+    "platform": "Web 全平台",
+    "status": "release",
+    "tags": [
+      "工具",
+      "娱乐"
+    ],
+    "description": "使用 Vanilla JS 写的小玩具，包括快乐母鸡、掐秒表等。",
+    "icon": "/projects/icon/vanilla-gadgets.ico",
+    "preview": "/projects/preview/vanilla-gadgets.png",
+    "linkText": "vanilla.cup11.top/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/vanilla-gadgets?label=\"上次更新\""
+  },
+  {
+    "name": "BMI 计算器",
+    "repoName": "bmi-calculator",
+    "link": "https://bmi-calculator-c.netlify.app",
+    "platform": "Web 全平台",
+    "status": "release",
+    "tags": [
+      "实用",
+      "健康",
+      "计算工具"
+    ],
+    "description": "计算 BMI，并根据国标（22 岁及以下使用国家体质健康标准）更准确地判断体重状况，获得更科学的衡量。",
+    "icon": "/projects/icon/bmi-calculator.ico",
+    "preview": "/projects/preview/bmi-calculator.png",
+    "linkText": "bmi-calculator-c.netlify.app/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/bmi-calculator?label=\"上次更新\""
+  },
+  {
+    "name": "倒数日",
+    "repoName": "date_countdown",
+    "link": "https://github.com/cup113/date_countdown",
+    "platform": "CLI PC",
+    "status": "release",
+    "tags": [
+      "实用"
+    ],
+    "description": "计算日期倒计时的命令行软件，记录过去、当日和将来的每一天。",
+    "icon": "/projects/icon/date_countdown.ico",
+    "preview": "/projects/preview/date_countdown.png",
+    "linkText": "github.com/cup113/date_countdown",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/date_countdown?label=\"上次更新\""
+  },
+  {
+    "name": "计票器",
+    "repoName": "vote-counter",
+    "link": "https://vote_counter.netlify.app",
+    "platform": "Web PC",
+    "status": "release",
+    "tags": [
+      "效率",
+      "工具",
+      "展示"
+    ],
+    "description": "支持大屏投票展示、统计、排名，以及动画呈现，在本地自动保存所有数据。",
+    "icon": "/projects/icon/vote-counter.ico",
+    "preview": "/projects/preview/vote-counter.png",
+    "linkText": "vote_counter.netlify.app/",
+    "statusText": "正式版",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/vote-counter?label=\"上次更新\""
+  },
+  {
+    "name": "灵动课表",
+    "repoName": "class_form",
+    "link": "https://github.com/cup113/class_form",
+    "platform": "GUI PC",
+    "status": "deprecated",
+    "tags": [
+      "学习",
+      "实用",
+      "时间管理"
+    ],
+    "description": "（转向 ClassIsland）自动置顶调整展示课表的软件，高度可定制化，课表显示美观，传达信息充足。",
+    "icon": "/projects/icon/class_form.ico",
+    "preview": "/projects/preview/class_form.png",
+    "linkText": "github.com/cup113/class_form",
+    "statusText": "已弃用",
+    "badgeUrl": "https://img.shields.io/github/last-commit/cup113/class_form?label=\"上次更新\""
+  }
+]

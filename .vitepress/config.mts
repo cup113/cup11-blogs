@@ -14,6 +14,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '🎲 个人项目',
+        link: '/projects',
+      },
+      {
         text: '💻 前端教程',
         link: '/frontend-tutorial',
         items: [
@@ -206,15 +210,6 @@ export default defineConfig({
         collapsed: true,
       },
       {
-        text: '🎲 个人项目',
-        items: [
-          { text: "full-clock 一个开源可配置的全屏网页时钟", link: '/projects/full-clock' },
-          { text: "【网页小游戏】增强版掐秒表，解压玩具", link: '/projects/stopwatch-game' },
-        ],
-        link: '/projects',
-        collapsed: true,
-      },
-      {
         text: '⭐ 实用网址',
         link: '/favorites',
       }
@@ -243,7 +238,8 @@ export default defineConfig({
     },
   },
   head: [
-    ['link', { rel: 'icon', href: '/cube.png' }]
+    ['link', { rel: 'icon', href: '/cube.png' }],
+    ['link', { rel: 'stylesheet', href: '/.vitepress/custom.css' }],
   ],
   lastUpdated: true,
   markdown: {
